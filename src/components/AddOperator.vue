@@ -1,5 +1,4 @@
 <template>
-  <!--<b-modal ref="modal1"  v-model="show">-->
   <transition name="modal" v-if="show">
     <div class="modal-mask">
       <div class="modal-wrapper">
@@ -206,6 +205,8 @@ export default {
 }
 .bottom_btn {
   margin: 0px 5px;
+  font-size: 13px;
+  font-weight: 600;
 }
 .cancel {
   background-color: #c9cacc;

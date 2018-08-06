@@ -10,8 +10,7 @@ import 'bootstrap/js/dist/dropdown.js'
 Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
-/* eslint-disable no-new */
-new Vue({
+new Vue({ // eslint-disable-line no-new
   el: '#app',
   router,
   components: { App },
